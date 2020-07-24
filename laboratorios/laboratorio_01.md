@@ -68,3 +68,11 @@ Una vez hecho esto, debemos escribir en el campo de búsqueda la frase __IBM Blo
 Luego de seleccionar instalar, pasarán unos segundos y deberemos ver una notificación informándonos que la extensión se encuentra instalada:
 
 ![notificacion](../imagenes/notificacion.png)
+
+Una vez que hemos terminado, el menú izquierdo ahora mostrará un Icono para el IBM Blockchain Platform:
+
+![menu](../imagenes/menuu-blockchain-platform.png)
+
+## 6 - Fin
+
+Felicidades! Has terminado el primer laboratorio del curso. Tu máquina se encuentra lista para desarrollar soluciones blockchain.
