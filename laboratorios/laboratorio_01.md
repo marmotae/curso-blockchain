@@ -39,8 +39,14 @@ El Visual Studio Code es un editor de texto ideal para la creación de programas
 Docker es una plataforma de contenedores que sirve para desplegar plataformas de desarrollo y ejecución de soluciones. Para instalarlo debemos de seguir las siguientes instrucciones dependiendo de nuestra plataforma:
 
 - __Windows 10 Home__
+    - Debemos navegar a https://hub.docker.com/editions/community/docker-ce-desktop-windows/ y una vez ahí dar click en el botón ![get stable](../imagenes/getstable.png)
+    - Luego de descargarlo, debemos ejecutar el instalador, si se nos pregunta, debemos asegurarnos de habilitar las opciones para habilitar las opciones de __WSL 2__
+    - Una vez ejecutada y finalizada la instalación, __Docker Desktop__ debe ejecutar, esto lo podemos saber pues aparecerá el siguiente icono en la barra de notificaciones ![whale](../imagenes/whale-x-win.png)
+    - Si al finalizar la instalación __Docker Desktop__ no inicia automáticamente, debemos iniciarlo manualmente buscando docker entre nuestras aplicaciones y seleccionando la opción __Docker Desktop__ entre nuestros resultados como se muestra a continuacion : ![whale](../imagenes/docker-app-search.png)
 - __Windows 10 Pro, Enterprise, o Education__
     - Debemos navegar a https://hub.docker.com/editions/community/docker-ce-desktop-windows/ y una vez ahí dar click en el botón ![get stable](../imagenes/getstable.png)
+    - Luego de descargarlo, debemos ejecutar el instalador, si se nos pregunta, debemos asegurarnos de habilitar las opciones para habilitar las opciones de __Hyper-V__
+    - Una vez ejecutada y finalizada la instalación, __Docker Desktop__ debe ejecutar, esto lo podemos saber pues aparecerá el siguiente icono en la barra de notificaciones ![whale](../imagenes/whale-x-win.png)
 - __OS X__ 
 
 
