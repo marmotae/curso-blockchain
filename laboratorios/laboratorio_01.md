@@ -33,6 +33,12 @@ En caso de que esta instrucción muestre un error o bien que la versión sea una
 
 El Visual Studio Code es un editor de texto ideal para la creación de programas. Para poder descargarlo debemos entrar a https://code.visualstudio.com/ y seleccionar nuestro sistema operativo. Descargamos el instalador y ejecutamos la instalación por omisión.
 
+__Nota__ : En el caso particular de OS X debemos hacer un paso adicional. Luego de instalar Visual Studio Code debemos iniciar el programa. Una vez abierto debemos presionar las siguiente combinación de teclas __⇧⌘P__ lo cual nos mostrará un campo de captura en la parte superior del programa en donde escribiremos ```shell command``` de la siguiente manera:
+
+![comando](../imagenes/shell-command-enable.png)
+
+De las opciones desplegadas demos click sobre la que se marca cómo ```Shell command: install```
+
 ## 4 - Instalar Docker 
 
 Docker es una plataforma de contenedores que sirve para desplegar plataformas de desarrollo y ejecución de soluciones. Para instalarlo debemos de seguir las siguientes instrucciones dependiendo de nuestra plataforma:
