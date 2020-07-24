@@ -58,10 +58,13 @@ Docker es una plataforma de contenedores que sirve para desplegar plataformas de
 ## 5 - Instalar el IBM Blockchain Visual Studio Code Extension
 
 Lo primero que debemos hacer es iniciar el programa Visual Studio Code que instalamos en el paso 3 de la manera normal en que ejecutamos programas en nuestro sistema operativo. Una vez iniciado, debemos dar click sobre el Icono de extensiones que aparece en el menú izquierdo de la siguiente manera:
+
 ![extensions](../imagenes/extensiones.png)
 
 Una vez hecho esto, debemos escribir en el campo de búsqueda la frase __IBM Blockchain Platform__ y dar click en la opción correspondiente para instalar entre los resultados de la busqueda de la siguiente manera:
+
 ![search](../imagenes/search-extension.png)
 
 Luego de seleccionar instalar, pasarán unos segundos y deberemos ver una notificación informándonos que la extensión se encuentra instalada:
+
 ![notificacion](../imagenes/notificacion.png)
