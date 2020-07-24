@@ -47,7 +47,13 @@ Docker es una plataforma de contenedores que sirve para desplegar plataformas de
     - Debemos navegar a https://hub.docker.com/editions/community/docker-ce-desktop-windows/ y una vez ahí dar click en el botón ![get stable](../imagenes/getstable.png)
     - Luego de descargarlo, debemos ejecutar el instalador, si se nos pregunta, debemos asegurarnos de habilitar las opciones para habilitar las opciones de __Hyper-V__
     - Una vez ejecutada y finalizada la instalación, __Docker Desktop__ debe ejecutar, esto lo podemos saber pues aparecerá el siguiente icono en la barra de notificaciones ![whale](../imagenes/whale-x-win.png)
+    - Si al finalizar la instalación __Docker Desktop__ no inicia automáticamente, debemos iniciarlo manualmente buscando docker entre nuestras aplicaciones y seleccionando la opción __Docker Desktop__ entre nuestros resultados como se muestra a continuacion : ![search](../imagenes/docker-app-search.png)
 - __OS X__ 
+    - Debemos navegar a https://hub.docker.com/editions/community/docker-ce-desktop-mac/ y una vez ahí dar click en el botón ![get stable](../imagenes/getstable.png)
+    - Una vez descargado, debemos dar doble click sobre el archivo descargado lo que abrirá la ventana de instalación. Una vez hecho esto debemos arrastrar el Icono de docker sobre del icono de aplicaciones y dejarlo ahi de la siguiente forma: ![drag](../imagenes/docker-app-drag.png)
+    - Una vez hecho esto el programa quedará instalado y lo podemos ver de la siguiente forma en nuestro folder de aplicaciones: ![apps](../imagenes/docker-app-in-apps.png)
+    - Demos doble click sobre su Icono para iniciar el aplicativo (esto será necesario solo la primera vez)
+    - Una vez que está ejecutando, lo podemos ver mediante el Icono de la ballena en nuestra barra de menú de la siguente manera: ![whale](../imagenes/whale-in-menu-bar.png)
 
 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
