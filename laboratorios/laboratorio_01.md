@@ -7,8 +7,7 @@ El objeto de este laboratorio es sumamente simple, prepararemos nuestras computa
 - __Node.js__ : Plataforma para ejecución de programas en el lenguage javascript.
 - __Visual Studio Code__ : Editor de texto avanzado, pensado para el desarrollo de programas.
 - __Docker__ : Entorno de contenedores, encargado de la gestión de herrmientas de software para la creación de ambientes.
-- __Hyperledger Fabric__ : Plataforma de Blockchain basada en el proyecto de código abierto Hyperledger Fabric.
-- __IBM Blockchain Visual Studio Code Extension__ componente accesorio grtuito para visual studio code para controlar y desplegar código a la plaraforma de Hyperledger Fabric.
+- __IBM Blockchain Visual Studio Code Extension__ componente accesorio gratuito para visual studio code para controlar y desplegar código a la plaraforma de Hyperledger Fabric.
 
 ## 1 - Acceder a la línea de comando
 
@@ -56,4 +55,13 @@ Docker es una plataforma de contenedores que sirve para desplegar plataformas de
     - Una vez que está ejecutando, lo podemos ver mediante el Icono de la ballena en nuestra barra de menú de la siguente manera: ![whale](../imagenes/whale-in-menu-bar.png)
 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+## 5 - Instalar el IBM Blockchain Visual Studio Code Extension
+
+Lo primero que debemos hacer es iniciar el programa Visual Studio Code que instalamos en el paso 3 de la manera normal en que ejecutamos programas en nuestro sistema operativo. Una vez iniciado, debemos dar click sobre el Icono de extensiones que aparece en el menú izquierdo de la siguiente manera:
+![extensions](../imagenes/extensiones.png)
+
+Una vez hecho esto, debemos escribir en el campo de búsqueda la frase __IBM Blockchain Platform__ y dar click en la opción correspondiente para instalar entre los resultados de la busqueda de la siguiente manera:
+![search](../imagenes/search-extension.png)
+
+Luego de seleccionar instalar, pasarán unos segundos y deberemos ver una notificación informándonos que la extensión se encuentra instalada:
+![notificacion](../imagenes/notificacion.png)
