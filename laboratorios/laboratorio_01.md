@@ -71,7 +71,7 @@ Luego de seleccionar instalar, pasarán unos segundos y deberemos ver una notifi
 
 Una vez que hemos terminado, el menú izquierdo ahora mostrará un Icono para el IBM Blockchain Platform:
 
-![menu](../imagenes/menuu-blockchain-platform.png)
+![menu](../imagenes/menu-blockchain-platform.png)
 
 ## 6 - Fin
 
