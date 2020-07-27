@@ -43,3 +43,7 @@ Al finalizar, el programa construirá los archivos necesarios y luego de un minu
 Ahora procederemos a analizar el proyecto creado por la herramienta. Dentro del menú que aparece al lado izquierdo, expandimos la opcion __demo-contract__ y veremos que ha creado una serie de carpetas y archivos. Acto seguido expandimos la carpeta __src__ en donde la herramienta nos ha dejado el código fuente de nuestra aplicación de la siguiente forma:
 
 ![src-menu](../imagenes/src-menu.png)
+
+El contrato inteligente generado se encuentra dentro del archivo __my-asset-contract.ts__, demos un doble click sobre el archivo __my-asset-contract.ts__ para abrirlo en el editor de la siguiente forma
+
+![src-my-asset](../imagenes/my-asset-src.png)
