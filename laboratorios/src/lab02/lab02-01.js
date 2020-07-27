@@ -1,13 +1,14 @@
 var crypto = require('crypto');
 
-var test01 = "Pablito";
-var test02 = "pablito";
-var test03 = "Pablito";
-
-console.log (getHash(test01));
-console.log (getHash(test02));
-console.log (getHash(test03));
-
-function getHash(valor){
+function calculaHash(valor){
     return crypto.createHash('sha256').update(valor).digest('base64');;
 }
+
+var texto1 = "Pablito";
+var texto2 = "pablito";
+var texto3 = "Pablito";
+
+console.log (calculaHash(texto1));
+console.log (calculaHash(texto2));
+console.log (calculaHash(texto3));
+
