@@ -84,3 +84,30 @@ const buffer = await ctx.stub.getState(myAssetId);
 ```
 
 lo que estamos haciendo aquí es pedirle a la variable de contexto __ctx__, que nos proporcione el estado de un activo, mediante __getState()__ donde ese activo se indentifica mediante el valor __myAssetId__. De hecho, la instrucción __getState__ es una instrucción de lectura, motivo por el cual no modifica el ledger y es la razón por la que identificamos al decorador __@Transaction__ con el parámetro __false__
+
+Veamos ahora para comparación la siguiente función:
+
+```javascript
+    @Transaction()
+    public async createMyAsset(ctx: Context, myAssetId: string, value: string): Promise<void> {
+        const exists = await this.myAssetExists(ctx, myAssetId);
+        if (exists) {
+            throw new Error(`The my asset ${myAssetId} already exists`);
+        }
+        const myAsset = new MyAsset();
+        myAsset.value = value;
+        const buffer = Buffer.from(JSON.stringify(myAsset));
+        await ctx.stub.putState(myAssetId, buffer);
+    }
+```
+
+Lo primero que vemos es el decorador __@Transaction()__, aquí llama la atención que no parece haber parámetro, sin embargo esto es lo mismo que poner __@Transaction(true)__ ya que __true__ es su valor por defecto. Esto lo hacemos pues la última linea nos indica:
+
+```javascript
+await ctx.stub.putState(myAssetId, buffer);
+```
+donde invocamos la instrucción __putState()__ que es una instrucción de escritura al contexto. Es por eso que el parámetro del decorador es __true__.
+
+## 4 - Conclusiones
+
+En este laboratorio hemos visto una primera introducción a la creación de contratos inteligentes. Y aunque no hemos escribido aun uno, vimos lo sencillo que resulta creear el andamiaje básico del contrato inteligente usando el __IBM Blockchain Addon__. Vimos así mismo que existen diferencias entre las transacciones que consultan y aquellas que modifican el ledger. Ahora nos resta desplegar este contrato inteligente a una red blockchain para ver su comportamiento y probar su funcionalidad, esto lo haremos en el siguiente laboratoraio.
