@@ -23,3 +23,7 @@ Acto seguido, aparacerá un nuevo díalogo preguntandonos por el lenguage de pro
 Estas opciones general el andamiaje básico para crear un contrato inteligente centrado sobre el manejo de un único tipo de activo. Luego de ejecutar la herramienta podremos agregar otros tipos de activo. Por ahora nombremos nuestro activo base como __MyAssett__ como se muestra a continuación:
 
 ![MyAssett](../imagenes/MyAssett.png)
+
+Ahora la herramienta nos pregunta en donde deberemos crear el proyecto. Seleccionemos la opción __Browse__ para navegar en nuestro disco y seleccionar la ubicación donde crearemos nuestro proyecto
+
+![Browse](../imagenes/browse.png)
