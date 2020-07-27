@@ -22,3 +22,7 @@ Durante el curso ejecutaremos varios laboratorios que pueden encontrar aquí:
 
 1. [Laboratorio 01](./laboratorios/laboratorio_01.md) - Preparación del ambiente de desarrollo local.
 2. [Laboratorio 02](./laboratorios/laboratorio_02.md) - Introducción a los hashes y estructuras de datos para blockchain.
+
+## 4 - Código Fuente
+
+El código fuente integral de los distintos laboratorios se encuentra bajo el siguiente [subdirectorio](./laboratorios/src)
