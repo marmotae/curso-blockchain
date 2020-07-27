@@ -33,3 +33,7 @@ Una vez que hemos llegado a la ubicación demos click en el boton de __Crear Nue
 Ahora nos vulverá a aparecer un diálogo preguntándonos que hacer con el nuevo proyecto. Seleccionarémos la opción __Add to workspace__ como se muestra a continuación:
 
 ![add-to-workspace](../imagenes/add-to-workspace.png)
+
+Al finalizar, el programa construirá los archivos necesarios y luego de un minuto terminará de ejecutar regresando el editor al modo de "manejador de archivos" mostrandonos la creación del espacio de trabajo solicitado de la siguiente forma:
+
+![workspace-created](../imagenes/workspace-created.png)
