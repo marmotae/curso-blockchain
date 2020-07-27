@@ -27,3 +27,9 @@ Estas opciones general el andamiaje básico para crear un contrato inteligente c
 Ahora la herramienta nos pregunta en donde deberemos crear el proyecto. Seleccionemos la opción __Browse__ para navegar en nuestro disco y seleccionar la ubicación donde crearemos nuestro proyecto
 
 ![Browse](../imagenes/browse.png)
+
+Una vez que hemos llegado a la ubicación demos click en el boton de __Crear Nueva Carpeta__ y nombrémosla como __"demo_contract"__. Una vez creada y abierta, demos click en el botón de salvar para que quede este directorio como la raiz de nuestro proyecto.
+
+Ahora nos vulverá a aparecer un diálogo preguntándonos que hacer con el nuevo proyecto. Seleccionarémos la opción __Add to workspace__ como se muestra a continuación:
+
+![add-to-workspace](../imagenes/add-to-workspace.png)
