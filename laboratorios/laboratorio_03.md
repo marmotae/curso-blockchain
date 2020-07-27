@@ -28,7 +28,7 @@ Ahora la herramienta nos pregunta en donde deberemos crear el proyecto. Seleccio
 
 ![Browse](../imagenes/browse.png)
 
-Una vez que hemos llegado a la ubicación demos click en el boton de __Crear Nueva Carpeta__ y nombrémosla como __"demo_contract"__. Una vez creada y abierta, demos click en el botón de salvar para que quede este directorio como la raiz de nuestro proyecto.
+Una vez que hemos llegado a la ubicación demos click en el boton de __Crear Nueva Carpeta__ y nombrémosla como __"demo-contract"__. Una vez creada y abierta, demos click en el botón de salvar para que quede este directorio como la raiz de nuestro proyecto.
 
 Ahora nos vulverá a aparecer un diálogo preguntándonos que hacer con el nuevo proyecto. Seleccionarémos la opción __Add to workspace__ como se muestra a continuación:
 
@@ -37,3 +37,9 @@ Ahora nos vulverá a aparecer un diálogo preguntándonos que hacer con el nuevo
 Al finalizar, el programa construirá los archivos necesarios y luego de un minuto terminará de ejecutar regresando el editor al modo de "manejador de archivos" mostrandonos la creación del espacio de trabajo solicitado de la siguiente forma:
 
 ![workspace-created](../imagenes/workspace-created.png)
+
+## 2 - Analizando el Proyecto
+
+Ahora procederemos a analizar el proyecto creado por la herramienta. Dentro del menú que aparece al lado izquierdo, expandimos la opcion __demo-contract__ y veremos que ha creado una serie de carpetas y archivos. Acto seguido expandimos la carpeta __src__ en donde la herramienta nos ha dejado el código fuente de nuestra aplicación de la siguiente forma:
+
+![src-menu](../imagenes/src-menu.png)
