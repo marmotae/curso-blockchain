@@ -19,3 +19,7 @@ Al hacerlo nos aparecerá en la parte superior un nuevo diálogo. Presionaremos 
 Acto seguido, aparacerá un nuevo díalogo preguntandonos por el lenguage de programación a usar en el proyecto. En esta ocasión seleccionaremos la opción __TypeScript__ de la siguiente manera
 
 ![select language](../imagenes/typescript.png)
+
+Estas opciones general el andamiaje básico para crear un contrato inteligente centrado sobre el manejo de un único tipo de activo. Luego de ejecutar la herramienta podremos agregar otros tipos de activo. Por ahora nombremos nuestro activo base como __MyAssett__ como se muestra a continuación:
+
+![MyAssett](../imagenes/MyAssett.png)
