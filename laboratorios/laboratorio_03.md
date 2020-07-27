@@ -47,3 +47,40 @@ Ahora procederemos a analizar el proyecto creado por la herramienta. Dentro del 
 El contrato inteligente generado se encuentra dentro del archivo __my-asset-contract.ts__, demos un doble click sobre el archivo __my-asset-contract.ts__ para abrirlo en el editor de la siguiente forma
 
 ![src-my-asset](../imagenes/my-asset-src.png)
+
+La primera linea del archivo nos indica que importará la biblioteca de clases básicas para Hyperledger Fabric
+
+```javascript
+import { Context, Contract, Info, Returns, Transaction } from 'fabric-contract-api';
+```
+
+Un poco más abajo, encontramos la siguiente linea que hace que este programa en typescript sea un contrato inteligente pues nos indica que extenderá la funcionalidad básica de la clase __Contract__
+
+```javascript
+export class MyAssetContract extends Contract {
+```
+
+el resto de la lógica del programa, contenida entre los {} de la clase __Contract__ consiste en las transacciones del contrato
+
+## 3 - Analizando las Transacciones
+
+Veamos mas a detalle una de estas transacciones. Por ejemplo si analizamos esta función 
+
+```javascript
+    @Transaction(false)
+    @Returns('boolean')
+    public async myAssetExists(ctx: Context, myAssetId: string): Promise<boolean> {
+```
+Podemos ver que se declara como una transacción al iniciar con el decorador __@Transaction__ de esto podemos derivar que todas aquellas secciones que inicien con el decorador __@Transaction__ serán tratadas como transacciones. Vemos adicionalmente que el decorador viene acompañado de el parámetro __false__ lo que quiere decir que esta transacción no escribirá en el ledger sino que únicamente leerá de este. En caso de que la transacción fuese declarada como __@Transaction(true)__ esto querría decir que la transacción modificará al ledger.
+
+El decorador __@Returns__ nos idica que esta transacción nos regresará un valor, en este caso un valor booleano (cierto o falso) como lo indica el parámetro __"boolean"__
+
+Vemos adicionalmente que la transacción lleva dos parámetros, __myAssetId__ del tipo __string__ y __ctx__ del tipo __Context__. De momento nos fijaremos en la variable __ctx__ pues es una variable especial. La variable de contexto es donde podemos consultar el estado actual de la totalidad de un blockchain, por ejemplo mediante ella podemos conocer los datos de un activo o la existencia de este así como crear y modificar activos.
+
+En el caso particular de esta transacción, usamos la variable de contexto de esta forma
+
+```javascript
+const buffer = await ctx.stub.getState(myAssetId);
+```
+
+lo que estamos haciendo aquí es pedirle a la variable de contexto __ctx__, que nos proporcione el estado de un activo, mediante __getState()__ donde ese activo se indentifica mediante el valor __myAssetId__. De hecho, la instrucción __getState__ es una instrucción de lectura, motivo por el cual no modifica el ledger y es la razón por la que identificamos al decorador __@Transaction__ con el parámetro __false__
