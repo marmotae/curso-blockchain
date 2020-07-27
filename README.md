@@ -12,10 +12,13 @@ El presente curso tiene como objetivo dar a el alumno una buena introducción a 
 
 ## 2 - Materiales
 
-La presentación del curso se encuentra [aquí](./presentaciones/Introduccion-al-Blockchain.pptx) para futura referencia
+El curso consiste de dos elementos teóricos:
+1. El primero consiste en una explicación de que es blockchain y sus elementos de soporte, cuya presentación se encuentra [aquí](./presentaciones/Introduccion-al-Blockchain.pptx) 
+2. Una elaboración sobre que estrategias seguir para crear una red blockchain, cuya presentación se encuentra [aquí](./presentaciones/estrategias-de-red.pptx) 
 
 ## 3 - Laboratorios
 
 Durante el curso ejecutaremos varios laboratorios que pueden encontrar aquí:
 
 1. [Laboratorio 01](./laboratorios/laboratorio_01.md) - Preparación del ambiente de desarrollo local.
+2. [Laboratorio 02](./laboratorios/laboratorio_02.md) - Introducción a los hashes y estructuras de datos para blockchain.
