@@ -15,3 +15,7 @@ Ahora, ya dentro de la herramienta, generaremos un nuevo conjunto de archivos pa
 Al hacerlo nos aparecerá en la parte superior un nuevo diálogo. Presionaremos la tecla __Intro__ para aceptar la opción por omisión de la siguiente forma:
 
 ![create default contract](../imagenes/default-contract.png)
+
+Acto seguido, aparacerá un nuevo díalogo preguntandonos por el lenguage de programación a usar en el proyecto. En esta ocasión seleccionaremos la opción __TypeScript__ de la siguiente manera
+
+![select language](../imagenes/typescript.png)
