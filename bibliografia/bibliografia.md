@@ -50,9 +50,9 @@ Algunos libros interesantes para abundar sobre el tema de blockchain.
 
 1. The Ascent of Money
 
-   Este excelente libro estudia el proceso histórico de la creación del dinero y los diversos elementos del sistema financiero como el mercado de valores, el mercado de bonos y los seguros. Sirve como una excelente introducción a la teoría de como los mercados que desde el cacao hasta el bitcoin siguen teniendo los mismos fundamentales. El libro de puede comprar [aquí](https://amzn.to/38MJhsB).
+   Este excelente libro estudia el proceso histórico de la creación del dinero y los diversos elementos del sistema financiero como el mercado de valores, el mercado de bonos y los seguros. Sirve como una excelente introducción a la teoría de como los mercados que desde el cacao hasta el bitcoin siguen teniendo los mismos fundamentales. El libro se puede comprar [aquí](https://amzn.to/38MJhsB).
 
 2. Financial Market Transparency: Essay on Financial Markets Theory
 
-    Excelente libro (aunque algo avanzado) que nos describe el valor de la transparencia en el nuevo presente y futuro de los servicios financieros. Este gran libro de Paolo Sironi nos explica que la transparencia será la base de los nuevos servicios financieros y yo considero que esto está alineado con varios de los preceptos básicos del blockchain. El libro de puede comprar [aquí](https://www.amazon.com/gp/product/6202086777/ref=dbs_a_def_rwt_bibl_vppi_i3).
+    Excelente libro (aunque algo avanzado) que nos describe el valor de la transparencia en el nuevo presente y futuro de los servicios financieros. Este gran libro de Paolo Sironi nos explica que la transparencia será la base de los nuevos servicios financieros y yo considero que esto está alineado con varios de los preceptos básicos del blockchain. El libro se puede comprar [aquí](https://www.amazon.com/gp/product/6202086777/ref=dbs_a_def_rwt_bibl_vppi_i3).
 
