@@ -9,6 +9,8 @@ El objeto de este laboratorio es sumamente simple, prepararemos nuestras computa
 - __Docker__ : Entorno de contenedores, encargado de la gestión de herrmientas de software para la creación de ambientes.
 - __IBM Blockchain Visual Studio Code Extension__ componente accesorio gratuito para visual studio code para controlar y desplegar código a la plaraforma de Hyperledger Fabric.
 
+__Nota Importante__ : Si se tiene dificultad para ejecutar esta instalación existe una alternativa usando una máquina virtual pre configurada. La instalación es mas simple, pero tiene como inconveniente un mayor uso de disco. Las instrucciones alternativas pueden ser consultadas [aquí](./laboratorio_01b.ms)
+
 ## 1 - Acceder a la línea de comando
 
 Todas nuestras máquinas cuentan con una terminal desde donde podemos controlar y ejecutar programas desde la linea de comando. Para usar la terminal debemos hacer lo siguiente, dependiendo de nuestro sistema operativo:

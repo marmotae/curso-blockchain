@@ -20,7 +20,9 @@ El curso consiste de dos elementos teóricos:
 
 Durante el curso ejecutaremos varios laboratorios que pueden encontrar aquí:
 
-1. [Laboratorio 01](./laboratorios/laboratorio_01.md) - Preparación del ambiente de desarrollo local.
+1. El primer laboratorio consiste en preparar el ambiente de trabajo en nuestra maquina. Este se presenta en dos formas alternativas a elegir:
+    1. [Opcion 1](./laboratorios/laboratorio_01b.md) - Opción usando maquina vitual, mas sencilla de instalar pero consume mas espacio en disco
+    2. [Opcion 2](./laboratorios/laboratorio_01.md) - Opción usando compomentes que consume menos espacio pero resulta en una instalación mas complicada y laboriosa.
 2. [Laboratorio 02](./laboratorios/laboratorio_02.md) - Introducción a los hashes y estructuras de datos para blockchain.
 3. [Laboratorio 03](./laboratorios/laboratorio_03.md) - Creando un primer contrato inteligente
 
