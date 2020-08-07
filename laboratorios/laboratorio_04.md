@@ -43,3 +43,10 @@ Cada uno de estos elementos muestra lo que está configurado en el entorno conec
     - Los orderers que hacen cumplir la orden de transacción y distribuyen los bloques a sus pares
     - Autoridades de certificación que proporcionan los medios para identificar a los usuarios y organizaciones de la red
 - Las organizaciones son los miembros de la red de Blockchain. Cada organización estará formada por muchos usuarios y tipos de usuarios diferentes.
+
+Si expandemos las distintas secciones verémos los distintos valores por defecto de cada uno de estos elementos:
+- Cuatro nodos: un único par llamado Org1Peer1, un nodo de ordenamiento llamado Orderer y una autoridad certificadora, para cada una de las dos organizaciones.
+- Dos organizaciones, con identificadores de "OrdererMSP" y "Org1MSP". La primera será la propietaria del nodo ordenador
+y la segunda el par; es una buena práctica utilizar organizaciones separadas para los nodos ordenadores y los pares.
+- Hay un único canal de red por defecto llamado mychannel.
+- Por defecto no hay contratos inteligentes instalados o instanciados.
