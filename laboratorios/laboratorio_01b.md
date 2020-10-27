@@ -14,7 +14,7 @@ Una vez descargada, realizamos la instalación con la opciones por omisión.
 
 ## 2 - Descarga de la máquina virtual
 
-De manera separada a el software de virtualización, tenemos el archivo de nuestra máquina virtual. La máquina virtual puede ser descargada de [aquí](https://ibm.box.com/s/137duspbw1b9jtjlpw6oax8vvmh0zg4q).
+De manera separada a el software de virtualización, tenemos el archivo de nuestra máquina virtual. La máquina virtual puede ser descargada de [aquí](https://ibm.box.com/s/uf9awxgm685450mtz6gvnv224gsxz4yr).
 
 Esta descarga puede tomar varios minutos pues se trata de un archivo grande (5.8 GB). Una vez descargado el archivo deberemos descomprimirlo quedando en unos 16.4 GBs. Luego de descomprimirlo, podemos borrar el archivo __MaquinaCurso.zip__ para recuperar espacio.
 
