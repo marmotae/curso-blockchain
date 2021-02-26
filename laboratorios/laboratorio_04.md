@@ -50,3 +50,5 @@ Si expandemos las distintas secciones verémos los distintos valores por defecto
 y la segunda el par; es una buena práctica utilizar organizaciones separadas para los nodos ordenadores y los pares.
 - Hay un único canal de red por defecto llamado mychannel.
 - Por defecto no hay contratos inteligentes instalados o instanciados.
+
+## 3- Empaquetando y desplegando el contrato inteligente

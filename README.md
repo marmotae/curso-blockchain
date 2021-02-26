@@ -25,6 +25,9 @@ Durante el curso ejecutaremos varios laboratorios que pueden encontrar aquí:
     2. [Opcion 2](./laboratorios/laboratorio_01.md) - Opción usando compomentes que consume menos espacio pero resulta en una instalación mas complicada y laboriosa.
 2. [Laboratorio 02](./laboratorios/laboratorio_02.md) - Introducción a los hashes y estructuras de datos para blockchain.
 3. [Laboratorio 03](./laboratorios/laboratorio_03.md) - Creando un primer contrato inteligente
+4. [Laboratorio 04](./laboratorios/laboratorio_04.md) - Iniciando el entorno y desplegando el contrato inteligente
+5. [Laboratorio 05](./laboratorios/laboratorio_05.md) - Modificando un contrato existente y analizando el registro histórico
+6. [Laboratorio 06](./laboratorios/laboratorio_06.md) - Generando un contrato inteligente mas avanzado, con manejo de identidades y reglas
 
 ## 4 - Bibliografía
 
