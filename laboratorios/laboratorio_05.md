@@ -17,44 +17,7 @@ Como posiblemente recuerdes, el contrato inteligente generado se encuentra dentr
 Navegamos justo despues de la función __deleteMyAsset__ y agregamos la siguiente función:
 
 ```javascript
-@Transaction(false)
-    public async showHistory(ctx: Context, myAssetId: string): Promise<string> {
-        const iterator = await ctx.stub.getHistoryForKey(myAssetId);
-        const allResults = [];
-        while(true) {
-            const res = await iterator.next();
-            
-            if(res.value){
-                let Record={isDelete:null,timeStamp:null ,payload:null};
-                if(res.value.isDelete){
-                    Record.isDelete = true;
-                }else{
-                    Record.isDelete = false;
-                }
-                
-                Record.timeStamp =  new Date(res.value.timestamp.seconds*1000).toISOString();
-                const Key = res.value.txId;
-                if (res.value.value.toString()) {
-                    let Payload;
-                    try {
-                        Payload = JSON.parse(res.value.value.toString());
-                    } catch (err) {
-                        console.log(err);
-                        Payload = res.value.value.toString();
-                    }
-                    Record.payload = Payload;
-                }
-                allResults.push({ Key, Record });
-            }
 
-           if(res.done){
-               console.log('end of data');
-               await iterator.close();
-               console.info(allResults);
-               return JSON.stringify(allResults);
-           }
-        }
-    }
 ```
 como podemos ver esta función recibe como parámetro un identificador de activo, bajo la variable __myAssetId__ y manda llamar a la función interna __getHistoryForKey__ pasando el mismo parametro. Esta funcion interna nos regresa una colección con la totalidad de los movimientos que ha tenido un activo.
 

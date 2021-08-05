@@ -40,6 +40,10 @@ Algunos libros interesantes para abundar sobre el tema de blockchain.
 
    Este libro es un clásico de Andreas Antonopoulos que explica los principios básicos de los blockchains con cripto activos (con foco primordial en __BitCoin__) por lo que resulta mas similar a el material a ser cubierto en la 4a clase de este módulo. El libro se puede comprar [aquí](https://amzn.to/34wARSS).
 
+5. Modelos de Negocio Blockchain
+
+   Este documento presenta un excelente análisis sobre como diseñar estrategias de negocio para redes blockchain dependiendo del foco utilizado, sea este el de desarrollo de nuevos negocios o el de hacer optimizaciones de negocios existentes. El texto puede ser descargado de [aqui](https://github.com/marmotae/curso-blockchain/blob/master/presentaciones/modelos-de-negocio-blockchain.pdf)
+
 ## 4. Plataformas
 
 1. Platform Revolution: How Networked Markets Are Transforming the Economy - and How to Make Them Work for You
