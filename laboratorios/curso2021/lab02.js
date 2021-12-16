@@ -30,7 +30,7 @@ class Blockchain{
 
     agregaBloque(datos){
         var Bloque
-        if(this.ultimoBloque()!=null){
+        if(this.blockchain.length>0){
             Bloque = new Block(datos,this.ultimoBloque().hash);
         }else{
             Bloque = new Block(datos,null);

@@ -9,8 +9,8 @@ class Block{
         this.datos = datos;
         this.hashAnterior = hashAnterior;
         this.estampadoDeTiempo = Date.now();
-        this.hash = this.calculaHashBloque();
         this.nonce = 0;
+        this.hash = this.calculaHashBloque();
     }
 
     calculaHashBloque(){
@@ -38,7 +38,7 @@ class Blockchain{
 
     agregaBloque(datos){
         var Bloque
-        if(this.ultimoBloque()!=null){
+        if(this.blockchain.length>0){
             Bloque = new Block(datos,this.ultimoBloque().hash);
         }else{
             Bloque = new Block(datos,null);
@@ -60,8 +60,9 @@ class Blockchain{
         return true;
     }
 }
-
-miBlockchain = new Blockchain(1);
+const dificultadMeta = Number(process.argv[2]) 
+console.log("Procesando con dificultad "+ dificultadMeta);
+miBlockchain = new Blockchain(dificultadMeta);
 console.log ("Blockchain creado");
 console.log ("Agregando un bloque");
 miBlockchain.agregaBloque("Primer bloque agregado");
