@@ -61,6 +61,7 @@ class Blockchain{
     }
 }
 const dificultadMeta = Number(process.argv[2]) 
+inicio = new Date();
 console.log("Procesando con dificultad "+ dificultadMeta);
 miBlockchain = new Blockchain(dificultadMeta);
 console.log ("Blockchain creado");
@@ -70,4 +71,5 @@ console.log ("Agregando otro bloque");
 miBlockchain.agregaBloque("Segundo bloque agregado");
 console.log ("Validando Blockchain");
 console.log (miBlockchain.esValida());
-console.log (miBlockchain);
+final = new Date()
+console.log("Ejercicio ejecutado en "+((final-inicio)/1000).toFixed(4)+" segundos");
